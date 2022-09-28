@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+        mavenCentral()
+    }
+}
+rootProject.name = "Face Detect"
+include ':app'
